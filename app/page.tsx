@@ -59,7 +59,7 @@ export default function Home() {
 
     rms = Math.sqrt(rms / buffer.length);
 
-    if (rms < 0.0025) {
+    if (rms < 0.0012) {
       return -1;
     }
 
